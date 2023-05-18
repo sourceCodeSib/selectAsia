@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 9%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  background: black;
+  position: relative;
+  box-shadow: var(--box-shadow);
+}
+.header .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #eee;
+}
+.header .logo i {
+  color:red;
+  margin-right: 0.5rem;
+  font-size: 3rem !important;
+}
+.header .logo span {
+  color: red;
+}
+.header .icons button {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: 2rem;
+  background: black;
+  border-radius: 0.5rem;
+}
+.header .icons button .fa-icon {
+  color: #eee;
+  transition-duration: 0s;
+}
+.header .icons button:hover .fa-icon {
+  color: var(--green);
+}
+
+.header .icons #menu-btn {
+  display: none;
+}

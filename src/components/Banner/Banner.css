@@ -1,0 +1,48 @@
+.banner {
+  padding-top: 18rem;
+  padding-bottom: 16rem;
+  display: flex;
+  justify-content: center;
+}
+.banner .content {
+  text-align: center;
+  width: 60rem;
+}
+.banner .content h3 {
+  font-size: 3rem;
+  color: var(--black);
+}
+.banner .content span {
+  color: var(--green);
+}
+.banner .content p {
+  padding: 2rem 0;
+  font-size: 1.7rem;
+  color: var(--light-color);
+}
+.banner .content button:hover {
+  background: var(--green);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
