@@ -14,6 +14,7 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -22,14 +23,13 @@ export default function Footer() {
         <div className="box">
           <FontAwesomeIcon icon={['fas', 'faUser']} />
           <h3>
-            AsianSpice
-            <i>
+            SelectAsia
+            {/* <i>
               <FontAwesomeIcon icon={faPepperHot} />
-            </i>
+            </i> */}
           </h3>
           <p>
-            Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Natus,
-            Laudantium?
+            Unit 5, Littlepace Shopping Centre, Littlepace Rd, Huntstown, Dubin 15, D15 YF1H
           </p>
           <div className="share">
             <a href="/">
@@ -60,35 +60,41 @@ export default function Footer() {
             <i>
               <FontAwesomeIcon icon={faPhone} />
             </i>
-            +123 456 7890
+            +353 89 217 3125
           </a>
-          <a href="/" className="links">
+          {/* <a href="/" className="links">
             <i>
               <FontAwesomeIcon icon={faPhone} />
             </i>
             +111 222 3333
-          </a>
+          </a> */}
           <a href="/" className="links" id="emailLink">
             <i>
               <FontAwesomeIcon icon={faEnvelope} />
             </i>
-            name@email.com
+            selectasiablanchardstown@gmail.com
           </a>
           <a href="/" className="links">
             <i>
               <FontAwesomeIcon icon={faMapMarkerAlt} />
             </i>
-            AsianSpice, Cork, Dublin
+            SelectAsia, Dublin
           </a>
         </div>
         <div className="box">
           <h3>quick info</h3>
-          <a href="#home" className="links">
+          <Link to={'/'} className="links">
             <i>
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
             home
-          </a>
+          </Link>
+          {/* <a href="#home" className="links">
+            <i>
+              <FontAwesomeIcon icon={faArrowRight} />
+            </i>
+            home
+          </a> */}
           <a href="#features" className="links">
             <i>
               <FontAwesomeIcon icon={faArrowRight} />

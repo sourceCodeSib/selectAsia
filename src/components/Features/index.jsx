@@ -1,6 +1,7 @@
 // Features
 import React from 'react';
 import './Features.css';
+import { Link } from 'react-router-dom';
 
 export default function Features() {
   return (
@@ -16,19 +17,22 @@ export default function Features() {
             <img src="/static/images/feature-img-1.png" alt="" />
             <h3>fresh and organic</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, quis!</p>
-            <a href="/" className="btn">read more</a>
+            {/* <a href="/" className="btn">read more</a> */}
+            <Link to={'/features/freshorganic'} className="btn">read more</Link>
           </div>
           <div className="box">
             <img src="/static/images/feature-img-2.png" alt="" />
             <h3>free delivery</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, quis!</p>
-            <a href="/" className="btn">read more</a>
+            {/* <a href="/" className="btn">read more</a> */}
+            <Link to={'/features/freedelivery'} className="btn">read more</Link>
           </div>
           <div className="box">
             <img src="/static/images/feature-img-3.png" alt="" />
             <h3>easy payment</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, quis!</p>
-            <a href="/" className="btn">read more</a>
+            {/* <a href="/" className="btn">read more</a> */}
+            <Link to={'/features/easypayment'} className="btn">read more</Link>
           </div>
         </div>
       </div>

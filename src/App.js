@@ -1,22 +1,23 @@
 import React from 'react';
 import Header from './components/Header';
-import Banner from './components/Banner';
-import Features from './components/Features';
-import ScrollImage from './components/ScrollImage'
-import Products from './components/Products';
-import Categories from './components/Categories';
+import Home from './pages/Home';
+import FreshOrganic from './pages/OurFeatures/FreshOrganic';
+import FreeDelivery from './pages/OurFeatures/FreeDelivery';
+import EasyPayment from './pages/OurFeatures/EasyPayment';
 import Footer from './components/Footer';
+import { Route, Routes } from 'react-router-dom';
 // import './App.css';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Banner />
-      <Features />
-      <Categories />
-      <ScrollImage />
-      <Products />
+      <Routes>
+        <Route path='/' element={<Home />} ></Route>
+        <Route path='/features/freshorganic' element={<FreshOrganic />} ></Route>
+        <Route path='/features/freedelivery' element={<FreeDelivery />} ></Route>
+        <Route path='/features/easypayment' element={<EasyPayment />} ></Route>
+      </Routes>
       <Footer />
     </div>
   );

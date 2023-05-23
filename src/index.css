@@ -46,6 +46,9 @@ footer {
 }
 body {
   background: rgb(248, 248, 248);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 .heading {
   text-align: center;
