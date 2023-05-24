@@ -14,9 +14,11 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Footer() {
+  const location = useLocation();
+
   return (
     <footer className="footer" id="footer">
       <div className="box-container">
@@ -83,25 +85,58 @@ export default function Footer() {
         </div>
         <div className="box">
           <h3>quick info</h3>
-          <Link to={'/'} className="links">
-            <i>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </i>
-            home
-          </Link>
+          {location.pathname === '/' ? (
+            <a href="#home" className="links">
+              <i>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </i>
+              home
+            </a>
+          ) : (
+            <Link to={'/'} className="links">
+              <i>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </i>
+              home
+            </Link>
+          )}
+          {location.pathname === '/' && (
+            <a href="#features" className="links">
+              <i>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </i>
+              features
+            </a>
+          )}
+          {location.pathname === '/' && (
+            <a href="#products" className="links">
+              <i>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </i>
+              products
+            </a>
+          )}
+          {location.pathname === '/' && (
+            <a href="#categories" className="links">
+              <i>
+                <FontAwesomeIcon icon={faArrowRight} />
+              </i>
+              categories
+            </a>
+          )}
           {/* <a href="#home" className="links">
             <i>
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
             home
           </a> */}
-          <a href="#features" className="links">
+          {/* <a href="#features" className="links">
             <i>
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
             features
-          </a>
-          <a href="#products" className="links">
+          </a> */}
+          {/* <a href="#products" className="links">
             <i>
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
@@ -112,7 +147,7 @@ export default function Footer() {
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
             categories
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="credits">

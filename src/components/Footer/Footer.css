@@ -1,12 +1,12 @@
 .footer {
-  background: black;
+  background: var(--grey);
 }
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
 }
 .footer .box-container h3 {
-  color: #eee;
+  color: black;
   font-size: 2.5rem;
   padding: 1rem 0;
 }
@@ -17,7 +17,7 @@
 .footer .box-container p {
   line-height: 1.8;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--light-black02);
   margin: 1rem 0;
 }
 .footer .box-container .share a {
@@ -27,7 +27,7 @@
 }
 .footer .box-container .share a i {
   border-radius: 0.5rem;
-  background: black;
+  background: var(--grey);
   text-align: center;
   font-size: 2rem;
   line-height: 4rem;
@@ -37,23 +37,23 @@
 }
 .footer .box-container .share a i .fa-icon {
   transition-duration: 0s;
-  color: #eee;
+  color: black;
 }
 .footer .box-container .share a:hover i .fa-icon {
-  color: var(--green);
+  color: var(--light-black01);
 }
 
 .footer .box-container .links {
   display: block;
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: var(--light-black02);
   padding: 1rem 0;
 }
 .footer .box-container #emailLink {
   text-transform: none;
 }
 .footer .box-container .links i {
-  color: var(--green);
+  color: black;
   padding-right: 0.5rem;
 }
 .footer .box-container .links:hover i {
@@ -74,8 +74,8 @@
   padding-top: 1.5rem;
   border-top: var(--border);
   font-size: 1.5rem;
-  color: #eee;
+  color: black;
 }
 .footer .credits span {
-  color: var(--green);
+  color: var(--light-black01);
 }

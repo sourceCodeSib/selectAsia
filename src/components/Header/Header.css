@@ -7,14 +7,14 @@
   top: 0;
   right: 0;
   z-index: 9999;
-  background: black;
+  background: var(--grey);
   position: relative;
   box-shadow: var(--box-shadow);
 }
 .header .logo {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #eee;
+  color: black;
 }
 .header .logo i {
   color:red;
@@ -32,15 +32,15 @@
   cursor: pointer;
   text-align: center;
   font-size: 2rem;
-  background: black;
+  background: var(--grey);
   border-radius: 0.5rem;
 }
 .header .icons button .fa-icon {
-  color: #eee;
+  color: var(--light-black02);
   transition-duration: 0s;
 }
 .header .icons button:hover .fa-icon {
-  color: var(--green);
+  color: black;
 }
 
 .header .icons #menu-btn {
