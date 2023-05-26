@@ -60,6 +60,14 @@ body {
   padding: 2rem 0 3rem 0;
 }
 
+.feature-page-img {
+  height: 35rem;
+  width: 45rem !important;
+  margin: auto;
+  display: block;
+  padding: 3rem;
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;

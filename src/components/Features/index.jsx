@@ -29,10 +29,10 @@ export default function Features() {
           </div>
           <div className="box">
             <img src="/static/images/feature-img-3.png" alt="" />
-            <h3>easy payment</h3>
+            <h3>Pick & Collect</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit, quis!</p>
             {/* <a href="/" className="btn">read more</a> */}
-            <Link to={'/features/easypayment'} className="btn">read more</Link>
+            <Link to={'/features/collect'} className="btn">read more</Link>
           </div>
         </div>
       </div>
