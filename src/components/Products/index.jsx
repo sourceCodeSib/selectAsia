@@ -48,9 +48,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -65,9 +65,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -82,9 +82,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -99,9 +99,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -116,9 +116,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
           </Swiper>
@@ -157,9 +157,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -174,9 +174,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -191,9 +191,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -208,9 +208,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -225,9 +225,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -242,9 +242,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
           </Swiper>
@@ -282,9 +282,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -299,9 +299,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -316,9 +316,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -333,9 +333,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -350,9 +350,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -367,9 +367,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -384,9 +384,9 @@ export default function Products() {
                   <FontAwesomeIcon icon={faStar} />
                   <FontAwesomeIcon icon={faStarHalfAlt} />
                 </div>
-                <button type="button" className="btn">
+                {/* <button type="button" className="btn">
                   add to cart
-                </button>
+                </button> */}
               </div>
             </SwiperSlide>
           </Swiper>

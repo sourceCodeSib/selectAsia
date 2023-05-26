@@ -1,0 +1,10 @@
+.box-container img{
+    width: 100%;
+}
+.box-container p {
+    color: var(--light-color);
+    list-style: 1.8;
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    margin: 2rem 0;
+}
