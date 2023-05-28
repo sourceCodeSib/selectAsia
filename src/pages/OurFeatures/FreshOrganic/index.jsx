@@ -8,7 +8,7 @@ export default function FreshOrganic() {
         Fresh and Organic
       </h1>
       <div className="box-container">
-        <img src="/static/images/banner-bg.webp" alt="" />
+        <img className="feature-page-img" src="/static/images/feature-img-1.png" alt="" />
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tempus aliquet. 
         Pellentesque finibus, est et iaculis suscipit, dolor nulla commodo dui, nec ultricies 

@@ -1,14 +1,14 @@
 import React from 'react';
 import '../../OurFeatures/ourfeatures.css';
 
-export default function EasyPayment() {
+export default function PickAndCollect() {
   return (
     <section>
       <h1 className="heading">
-        Easy Payments
+        Pick & Collect
       </h1>
       <div className="box-container">
-        <img src="/static/images/banner-bg.webp" alt="" />
+        <img className="feature-page-img" src="/static/images/feature-img-3.png" alt="" />
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ornare tempus aliquet. 
         Pellentesque finibus, est et iaculis suscipit, dolor nulla commodo dui, nec ultricies 
